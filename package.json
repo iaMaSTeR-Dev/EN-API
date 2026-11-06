@@ -1,0 +1,38 @@
+{
+  "name": "en-api",
+  "version": "1.0.0",
+  "description": "Bank Eghtesad Novin (Hamrah Novin) Read-Only API Client, Local Daemon & CLI Foundation",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts",
+    "cli": "node --experimental-strip-types src/cli.ts",
+    "typecheck": "node node_modules/typescript/bin/tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "banking",
+    "fastify",
+    "read-only",
+    "eghtesad-novin",
+    "fintech",
+    "typescript"
+  ],
+  "license": "MIT",
+  "author": "iaMaSTeR-Dev (https://github.com/iaMaSTeR-Dev)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iaMaSTeR-Dev/EN-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iaMaSTeR-Dev/EN-API/issues"
+  },
+  "homepage": "https://github.com/iaMaSTeR-Dev/EN-API#readme",
+  "dependencies": {
+    "fastify": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
+}
+

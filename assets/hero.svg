@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+<title id="t">EN-API — Read-only banking interface</title><desc id="d">A dark financial operations console with a secure session flow.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071923"/><stop offset="1" stop-color="#0b111b"/></linearGradient><linearGradient id="a" x2="1"><stop stop-color="#36e0c0"/><stop offset="1" stop-color="#4ba9ff"/></linearGradient><pattern id="g" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#24404a" stroke-opacity=".35"/></pattern></defs>
+<rect width="1200" height="420" rx="24" fill="url(#bg)"/><rect width="1200" height="420" rx="24" fill="url(#g)"/>
+<path d="M0 320 C260 260 380 390 650 300 S1000 220 1200 270" fill="none" stroke="#2ce0bd" stroke-opacity=".12" stroke-width="2"/>
+<text x="64" y="64" fill="#71d9ca" font-family="monospace" font-size="15" letter-spacing="4">ENBANK / LOCAL SYSTEMS</text>
+<text x="64" y="164" fill="#f1f7f8" font-family="Arial,sans-serif" font-size="76" font-weight="700">EN-API</text>
+<text x="68" y="207" fill="#a9c2c7" font-family="Arial,sans-serif" font-size="23">A read-only banking client &amp; local daemon</text>
+<rect x="64" y="250" width="190" height="42" rx="21" fill="#103d3c" stroke="#2bd9b5"/><text x="159" y="277" fill="#7cf0d4" text-anchor="middle" font-family="monospace" font-size="14">READ-ONLY BY DESIGN</text>
+<rect x="270" y="250" width="156" height="42" rx="21" fill="#142c40" stroke="#397da1"/><text x="348" y="277" fill="#a8dfff" text-anchor="middle" font-family="monospace" font-size="14">AES-256-GCM</text>
+<g transform="translate(650 92)"><rect width="470" height="236" rx="18" fill="#0b1c27" stroke="#244b55"/><text x="28" y="38" fill="#6b9aa1" font-family="monospace" font-size="12" letter-spacing="2">SESSION PIPELINE</text>
+<g font-family="monospace" font-size="14"><rect x="28" y="70" width="112" height="72" rx="10" fill="#102d36" stroke="#2caa9d"/><text x="84" y="111" fill="#c8fff2" text-anchor="middle">AUTH</text>
+<rect x="178" y="70" width="112" height="72" rx="10" fill="#102d36" stroke="#2caa9d"/><text x="234" y="111" fill="#c8fff2" text-anchor="middle">SESSION</text>
+<rect x="328" y="70" width="112" height="72" rx="10" fill="#102d36" stroke="#2caa9d"/><text x="384" y="111" fill="#c8fff2" text-anchor="middle">DAEMON</text></g>
+<path d="M140 106H178 M290 106H328" stroke="url(#a)" stroke-width="3"/><path d="M170 99l8 7-8 7 M320 99l8 7-8 7" fill="none" stroke="#51d8c0" stroke-width="2"/>
+<text x="28" y="190" fill="#7f9ca5" font-family="monospace" font-size="12">LOCALHOST ONLY  /  ENCRYPTED SESSION VAULT</text></g>
+<text x="64" y="375" fill="#53727c" font-family="monospace" font-size="12" letter-spacing="2">TYPESCRIPT  ·  FASTIFY  ·  NODE.JS</text>
+</svg>
